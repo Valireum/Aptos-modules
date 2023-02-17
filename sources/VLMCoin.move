@@ -1,7 +1,7 @@
 module VLMCoin::vlm_coin {
     struct VLMCoin {}
 
-    fun init_module(sender: &signer): (BurnCapability<VLMCoin>, MintCapability<VLMCoin>){
+    public fun initialize(sender: &signer) {
         aptos_framework::managed_coin::initialize<VLMCoin>(
             sender,
             b"VLM Coin",

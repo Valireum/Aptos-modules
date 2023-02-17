@@ -2,8 +2,8 @@
 name = 'Valireum'
 version = '1.0.0'
 
-[addresses]
-VLMCoin = "_"
-
 [dependencies]
 AptosFramework = { local = "../aptos-core/aptos-move/framework/aptos-framework/" }
+
+[addresses]
+VLMCoin = "49c407d010baf7688716d80434bba1e9fd579b48c1e2fc0eda8ae7c8b0e2884d"
