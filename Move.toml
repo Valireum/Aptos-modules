@@ -1,0 +1,5 @@
+[package]
+name = 'Valireum'
+version = '1.0.0'
+[dependencies]
+AptosFramework = { local = "../aptos-core/aptos-move/framework/aptos-framework/" }
